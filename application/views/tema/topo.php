@@ -62,8 +62,8 @@
   <div id="user-nav" class="navbar navbar-inverse">
     <ul class="nav">
       <li class=""><a title="" href="<?= site_url(); ?>/mine"><i class="fas fa-eye"></i> <span class="text">Área do Cliente</span></a></li>
-      <li class="pull-right"><i class="fas fa-asterisk"></i> <span class="text">Versão:
-            <?= $this->config->item('app_version'); ?></span></li>
+      <li class="pull-right"><a href="#"><i class="fas fa-asterisk"></i> <span class="text">Versão:
+            <?= $this->config->item('app_version'); ?></span></a></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user-cog"></i> <?= $this->session->userdata('nome') ?> <b class="caret"></b></a>
         <ul class="dropdown-menu">
